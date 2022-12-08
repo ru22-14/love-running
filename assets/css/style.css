@@ -220,7 +220,7 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
-/* gallery */
+/* gallery (masonry style)*/
 #photos {
     clear: both;
     line-height: 0;
@@ -232,3 +232,34 @@ footer {
     width: 100%;
     
 }
+/* media queries */
+/* from larger to medium screen sizes from 1200px wide and down */
+@media screen and (max-width : 1200px){
+    
+
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    
+    }
+   .welcome {
+    padding: 30px 0;
+    margin: 0;
+   }
+   #left-about, #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+   }
+   #center-about {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+   }
+   hr {
+    display: none;
+   }
+}
+    
